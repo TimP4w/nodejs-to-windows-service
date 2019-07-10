@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 var Service = require('node-windows').Service;
 var flags = require('flags');
-var Regex = require("regex");
 
 /* Flags */
 flags.defineString('name', '', 'The name of the service');
